@@ -1,11 +1,14 @@
-body{
+body, h1{
     margin:0;
     padding:0;
-    color:#2D4E6B;
+}
+body{
+    color:#DFEBF7;
+    background-color: #2D4E6B;
 }
 a{
     text-decoration: none;
-    color:#2D4E6B;
+    color:#DFEBF7;
 }
 main{
     font-family:'BebasNeuePro-Regular';
@@ -16,28 +19,57 @@ footer, h1, h2{
 nav, header{
     font-family:'BebasNeue Bold';
 }
-
 header{
     background-color: #DFEBF7;
-    height: 7rem;
+    color: #2D4E6B;
 }
-.flex-container{
+header p{
+    font-family: 'BebasNeuePro-Regular';
+}
+.bouton{
+    border:2px solid #2D4E6B;
+    border-radius: 1rem;
+    background-color: #2D4E6B;
+    color:#DFEBF7;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+}
+.flex-container-intro{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.flex-container-header{
+    display:flex;
+    justify-content:center;
+}
+.flex-container-nav{
     display: flex;
     justify-content: space-between;
-    align-items: end;
 }
 .liens{
-    padding: 1rem;
-    min-width: 20%;
-    
+    padding: 1rem 0;
+    align-self: self-end;
+    display: flex;
+    justify-content: end;
 }
 .lien{
-    margin: 0 5px;
+    margin-right: 1rem;
 }
 
 #logo-vd-infini{
+    align-self: center;
     height: 5rem;
-    margin: 1rem;
+    padding: 1rem;
+}
+#photo-moi, .flex-container-intro{
+    width: 12rem;
+    margin: 4rem;
+}
+#photo-moi{
+    border-radius: 3rem;
+    box-shadow: 6px 6px 9px 1px #2D4E6B99;
 }
 
 @font-face {
