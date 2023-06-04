@@ -1,0 +1,31 @@
+
+main{
+    font-family:'BebasNeuePro-Regular'
+}
+header, nav, footer, h1, h2{
+    font-family:'BebasNeue Regular';
+}
+@font-face {
+    font-family: 'BebasNeuePro-Regular';
+    src: url('../fonts/BebasNeuePro-Regular.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('../fonts/BebasNeue\ Bold.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Book';
+    src: url('../fonts/BebasNeue\ Book.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Light';
+    src: url('../fonts/BebasNeue\ Light.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Regular';
+    src: url('../fonts/BebasNeue\ Regular.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Thin';
+    src: url('../fonts/BebasNeue\ Thin.ttf');
+}
