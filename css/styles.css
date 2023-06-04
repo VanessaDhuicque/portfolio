@@ -5,6 +5,8 @@ body, h1{
 body{
     color:#DFEBF7;
     background-color: #2D4E6B;
+    font-size: large;
+    text-align: justify;
 }
 a{
     text-decoration: none;
@@ -12,6 +14,12 @@ a{
 }
 main{
     font-family:'BebasNeuePro-Regular';
+    padding: 5rem;
+    min-height: 12rem;
+}
+
+img{
+    object-fit: cover;
 }
 footer, h1, h2{
     font-family:'BebasNeue Regular';
@@ -19,13 +27,24 @@ footer, h1, h2{
 nav, header{
     font-family:'BebasNeue Bold';
 }
-header{
+header, footer{
     background-color: #DFEBF7;
     color: #2D4E6B;
 }
 header p{
     font-family: 'BebasNeuePro-Regular';
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
 .bouton{
     border:2px solid #2D4E6B;
     border-radius: 1rem;
@@ -48,6 +67,13 @@ header p{
     display: flex;
     justify-content: space-between;
 }
+
+.flex-container-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .liens{
     padding: 1rem 0;
     align-self: self-end;
@@ -58,13 +84,35 @@ header p{
     margin-right: 1rem;
 }
 
+.logo{
+    width: 3rem;
+    margin: 1rem;
+}
+
+.projets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.card{
+    border-radius: 2rem;
+    max-width: 18rem;
+    height: 14rem;
+}
+
+.calltoaction{
+    text-align: center;
+    font-size: xx-large;
+}
+
 #logo-vd-infini{
     align-self: center;
     height: 5rem;
     padding: 1rem;
 }
 #photo-moi, .flex-container-intro{
-    width: 12rem;
+    width: 13rem;
     margin: 4rem;
 }
 #photo-moi{
